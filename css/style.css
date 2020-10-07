@@ -70,6 +70,7 @@ h6 {
    font-weight: inherit;
 }
 .wrapper {
+       overflow: hidden;
    min-height: 100%;
 }
 .content {
@@ -3097,5 +3098,13 @@ main{
    .header__basket {
       right: 3%;
       transform: scale(0.85);
+   }
+}
+@media(min-width: 769px) {
+   .mobile-window {
+      display: none;
+   }
+   .content.active {
+      left: 0;
    }
 }
